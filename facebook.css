@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@600;700&display=swap');
+
+body {
+    font-family: 'Titillium Web', sans-serif;  
+}
+
+main {
+    background-color: #f0f2f5;  
+    min-height: 640px;
+    width: 100%; 
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    font-size: 3rem;
+    padding-top: 20px;
+    color: rgb(17, 117, 248);
+    text-align: center;
+}
+
+.facebook_logo {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    max-width: 396px;
+    background-color: white;
+    padding: 3%;
+    border-radius: 3%;
+    text-align: center;
+
+    margin: 0 auto 0;
+
+    box-shadow: 1px 1px 5px 4px rgba(0,0,0,0.06);
+-webkit-box-shadow: 1px 1px 5px 4px rgba(0,0,0,0.06);
+-moz-box-shadow: 1px 1px 5px 4px rgba(0,0,0,0.06);
+}
+
+input {
+    padding: 15px;
+    border-radius: 5px;
+    border:1px rgb(194, 194, 194) solid;
+	outline-color: rgba(194, 194, 194, 0.603);
+}
+
+input:hover(::placeholder), input:focus
+{
+    color: rgb(206, 206, 206);
+}
+
+button {
+    padding: 10px;
+    border-radius: 5px;
+    border:none;
+    
+    color: white;
+    font-weight: 600;
+}
+
+.the_login_btn {
+    background-color: rgb(17, 117, 248);
+    font-size: 1.2rem;
+}
+.the_login_btn:hover {
+    background-color: rgb(2, 102, 233);
+
+}
+
+.the_creat_btn {
+    background-color: rgb(3, 146, 3);
+    width: 50%;
+    align-self: center;
+}
+.the_creat_btn:hover {
+    background-color: rgb(1, 119, 1);
+}
+
+a {
+    font-size: 0.6;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.the_hr {
+    display: block;
+    text-align: center;
+    color: #96999e;
+    overflow: hidden
+}
+
+.the_hr>span::before {
+    margin-right: 15px;
+    right: 100%;
+}
+.the_hr>span::after {
+    margin-left: 15px;
+    left: 100%;
+}
+
+.the_hr>span::before, .the_hr>span::after {
+    background: #ccd0d5;
+    content: '';
+    height: 1px;
+    position: absolute;
+    top: 50%;
+    width: 9999px;
+
+}
+
+.the_hr>span {
+    display: inline-block;
+    position: relative;
+}
+
+.language {
+    display: flex;
+    gap: 15px;
+}
+
+footer a {
+    color: gray;
+    font-size: 0.988rem;
+}
+
+ul li {
+    list-style: none;
+}
+
+footer {
+    color: gray;
+    width: 100%;
+    padding: 5%;
+    overflow: hidden;
+}
+
+
+.the_horizontal_line {
+    background: #ccd0d5;
+    content: '';
+    height: 1px;
+    width: 100%;
+    
+}
+
+.down_links {
+display: flex;
+flex-flow: column nowrap;
+gap: 10px;
+}
